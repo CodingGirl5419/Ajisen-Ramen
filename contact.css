@@ -51,20 +51,10 @@ nav a {
     font-size:25px;
 }
 
-/*nav a:hover {
+nav a:hover {
     background-color:#ef2500;
     transition-duration:.8s;
-}*/
-
-nav a:hover {
-        background-color:transparent;
-        color:white;
-    }
-    
-nav a:target {
-        background-color:#ef2500;
-        color:white;
-    }
+}
 
 li {
     list-style-type:none;
