@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-weight:normal;
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+
+html {
+    background-color:black;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+header {
+    position:fixed;
+    width:100%;
+    background-color:black;
+    /*/padding-bottom:50px;*/
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#logo {
+    bottom:730px; /*10px*/
+    left:700px; /*200px*/
+    margin-right:150px;
+}
+
+nav {
+    background-color:black;
+}
+
+nav ul {
+    margin-right:-150px; /*-100px*/
+    display:flex;
+    list-style-type:none;
+    align-items:center;
+}
+
+nav a {
+    text-decoration:none;
+    color:white;
+    padding:20px;
+    font-size:25px;
+}
+
+nav a:hover {
+    background-color:#ef2500;
+    transition-duration:.8s;
+}
+
+li {
+    list-style-type:none;
+    display:inline-block;
+    padding-right:200px; /*100px*/
+}
+
+main {
+    background-image:url("Images/lemon drink 2.jpg");
+    background-size:cover;
+    padding-top:210px; /*120px*/
+	padding-bottom:565px; /*548px*/
+}
+
+h1 {
+    color:#ef2500;
+    text-align:center;
+    font-family: 'Rock Salt', sans-serif;
+    font-size:60px;
+    margin-bottom:10px;
+}
+	
+input {
+    display:block;
+    font-size:25px; /*18px*/
+    padding:20px; /*15px*/
+    /*padding-right:90px; /*90px*/
+    width:290px;
+    margin-bottom:50px; /*20px*/
+    font-family: 'Comfortaa', sans-serif;
+    color:#ef2500;
+}
+
+textarea {
+    font-family: 'Comfortaa', sans-serif;
+    font-size:25px; /*18px*/
+    color:#ef2500;
+    padding:20px;
+    
+}
+    
+form {
+    display:flex;
+    margin-right:700px;
+    margin-left:100px;
+    flex-direction:column;
+    color:#ef2500;
+    margin-bottom:-500px;
+    margin-top:-100px;
+    padding-right:300px;
+}
+
+#send {
+    background-color:transparent;
+    border:none;
+    padding:10px;
+    margin-top:20px;
+    margin-right:100px; /*200px*/
+    margin-left:115px; /*200px*/ /*120px*/
+    width:100px;
+    font-size:25px; /*18px*/
+    color:black;
+}
+
+#send:hover {
+    background-color:#ef2500;
+    transition-duration:.8s;
+    color:white;
+}
+
+form div {
+    margin-left:900px;
+    margin-top:-360px; /*-280*/
+}
+
+footer {
+    color:#ef2500;
+    background-color:black;
+    padding:15px;
+    text-align:center;
+    margin-top:0px;
+}
+
+span.material-icons {
+    color:white;
+    font-size:100px;
+    /*margin-left:200px; /*300px*/
+    display:none;
+    margin-right:100px;
+}
+
+#mobile {
+    display:block;
+}
+
+header a {
+    text-decoration:none;
+}
+
+@media screen and (max-width:560px) {
+    span.material-icons {
+        display:block;
+    }
+    
+    .material-icons:hover {
+        color:#ef2500;
+    }
+    
+    #mobile {
+        display:none;
+    }
+    
+    #mobile:target {
+        display:block;
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:-100; /*-100*/
+        right:0;
+        background-color:rgba(0,0,0,.8);
+        padding-top:130px; /*100px*/
+        padding-left:300px; /*200px*/
+        padding-right:140px; /*80px*/
+    }
+    
+    nav a {
+        text-decoration:none;
+    }
+    
+    li {
+        display:block;
+        text-align:center;
+        padding-bottom:30px;
+    }
+    
+    nav {
+        padding-right:800px; /*260px*/
+        padding:15px;
+    }
+    
+    header {
+        padding:0px;
+    }
+    
+    #logo {
+        bottom:660px; /*10px*/ /*650px*/
+        left:100px; /*200px*/ /*100px*/
+        margin-left:100px;
+    }
+    
+    form div {
+        margin-left:0px;
+        margin-top:0px;
+    }
+    
+    input {
+        width:293px; /*220px*/
+    }
+    
+    #send {
+        margin-left:115px;
+        width:100px;
+    }
+    
+    form {
+        margin-left:92px;
+    }
+    
+    /*#send:hover {
+        background-color:transparent;
+        color:black;
+    }
+    
+    #send:target {
+        background-color:#ef2500;
+        color:white;
+    }
+    
+    nav a:hover {
+        background-color:transparent;
+        color:white;
+    }
+    
+    nav a:target {
+        background-color:#ef2500;
+        color:white;
+    }
+    
+    .material-icons:hover {
+        background-color:transparent;
+        color:black;
+    }
+    
+    .material-icons:target {
+        color:#ef2500;
+    }*/
+    
+}
+    

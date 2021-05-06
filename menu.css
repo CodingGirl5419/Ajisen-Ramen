@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-weight:normal;
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+
+html {
+    background-color:black;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+header {
+    position:fixed;
+    width:100%;
+    background-color:black;
+    /*/padding-bottom:50px;*/
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#logo {
+    bottom:730px; /*10px*/
+    left:700px; /*200px*/
+    margin-right:150px;
+}
+
+nav {
+    background-color:black;
+}
+
+nav ul {
+    margin-right:-150px; /*-100px*/
+    display:flex;
+    list-style-type:none;
+    align-items:center;
+}
+
+nav a {
+    text-decoration:none;
+    color:white;
+    padding:20px;
+    font-size:25px;
+}
+
+nav a:hover {
+    background-color:#ef2500;
+    transition-duration:.8s;
+}
+
+li {
+    list-style-type:none;
+    display:inline-block;
+    padding-right:200px; /*100px*/
+}
+
+main {
+    background-image:url("Images/pork bun cover 4.jpg");
+    background-size:cover;
+    padding-top:210px; /*120px*/
+	padding-bottom:610px;
+}
+
+section {
+   margin:200px;
+   color:white;
+   display:flex;
+   line-height:35px; /*30px*/
+   font-size:16px;
+}
+
+#ramenCover {
+    background-image:url("Images/ramen cover 2.jpg");
+    background-size:cover;
+    padding-top:120px; /*130px*/
+	padding-bottom:610px; /*680px*/
+}
+
+#drinksCover {
+    background-image:url("Images/drinks cover.jpg");
+    background-size:cover;
+    padding-top:120px;
+	padding-bottom:610px;
+}
+
+section div {
+    text-align:center;
+    padding-left:50px;
+    margin-top:20px; /*50px*/
+}
+
+.space {
+    padding-bottom:20px;
+}
+
+h1 {
+    color:#ef2500;
+    text-align:center;
+    font-family: 'Rock Salt', sans-serif;
+    font-size:45px;
+    margin-bottom:50px;
+}
+
+h2 {
+    font-size:25px; /*20px*/
+    font-weight:400;
+}
+
+#appetizers {
+    margin-left:240px;
+}
+
+#ramen {
+    margin-left:330px;
+}
+
+#beverages {
+    margin-left:280px;
+    margin-bottom:80px; /*50px*/
+}
+
+/*section div p nth:child(3) {
+    font-weight:700;
+    font-size:100px;
+}*/
+
+footer {
+    color:#ef2500;
+    background-color:black;
+    padding:15px;
+    text-align:center;
+    margin-top:0px;
+}
+
+span.material-icons {
+    color:white;
+    font-size:100px;
+    /*margin-left:200px; /*300px*/
+    display:none;
+    margin-right:100px;
+}
+
+#mobile {
+    display:block;
+}
+
+header a {
+    text-decoration:none;
+}
+
+@media screen and (max-width:560px) {
+    span.material-icons {
+        display:block;
+    }
+    
+    .material-icons:hover {
+        color:#ef2500;
+    }
+    
+    #mobile {
+        display:none;
+    }
+    
+    #mobile:target {
+        display:block;
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:-100; /*-100*/
+        right:0;
+        background-color:rgba(0,0,0,.8);
+        padding-top:130px; /*100px*/
+        padding-left:300px; /*200px*/
+        padding-right:140px; /*80px*/
+    }
+    
+    nav a {
+        text-decoration:none;
+    }
+    
+    li {
+        display:block;
+        text-align:center;
+        padding-bottom:30px;
+    }
+    
+    nav {
+        padding-right:800px; /*260px*/
+        padding:15px;
+    }
+    
+    header {
+        padding:0px;
+    }
+    
+    #logo {
+        bottom:660px; /*10px*/ /*650px*/
+        left:100px; /*200px*/ /*100px*/
+        margin-left:100px;
+    }
+    
+    #appetizers {
+        margin-left:0px;
+    }
+    
+    #mobile-image-app {
+        margin-top:100px;
+        width:520px;
+    }
+    
+    #ramen {
+        margin-left:0px;
+    }
+    
+    #mobile-image-ramen {
+        margin-top:100px;
+        margin-left:28px;
+    }
+    
+    #beverages {
+        margin-left:0px;
+        margin:100px;
+    }
+    
+    #mobile-image-bev {
+        margin-top:100px;
+        margin-left:-85px;
+    }
+    
+    section {
+        display:inline;
+        margin-top:100px;
+    }
+    
+    section div {
+        margin:100px;
+        margin-left:50px;
+        margin-bottom:75px;
+    }
+    
+    #margin-bev-text {
+        /*padding:20px; /*10px*/
+        margin-left:0px; /*100px*/
+        margin-right:50px;
+        /*margin-bottom:10px;*/
+    }
+    
+    .margin-bottom-cover {
+        margin-bottom:100px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
