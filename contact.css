@@ -154,7 +154,7 @@ header a {
     text-decoration:none;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:560px) {
     span.material-icons {
         display:block;
     }
